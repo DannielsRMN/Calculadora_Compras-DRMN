@@ -74,46 +74,43 @@ total    = suma de los subtotales
 | ID | Tipo | Entrada | Resultado esperado |
 |---|---|---|---|
 | N1 | Normal | Precio 10.00, cantidad 2, descuento 0 % | Subtotal 20.00 |
-|---|---|---|---|
+
 ![alt text]({9D9FC7A0-E4D5-454D-AF57-05EB405ED8EA}.png)
 
 ### Validación Nro. 2
 | ID | Tipo | Entrada | Resultado esperado |
 |---|---|---|---|
 | N2 | Normal | Precio 50.00, cantidad 3, descuento 10 % | Subtotal 135.00 |
-|---|---|---|---|
+
 ![alt text]({8B86CA0C-49AE-42CF-87B0-9A16EF588B17}.png)
 
 ### Validación Nro. 3
 | ID | Tipo | Entrada | Resultado esperado |
 |---|---|---|---|
 | N3 | Límite | Precio 25.00, cantidad 4, descuento 100 % | Subtotal 0.00 |
-|---|---|---|---|
+
 ![alt text]({26A0A1C6-D4A7-4070-A32F-7788461EC0BB}.png)
 
 ### Validación Nro. 4
 | ID | Tipo | Entrada | Resultado esperado |
 |---|---|---|---|
 | N4 | Límite | Precio 0.01, cantidad 1, descuento 0 % | Subtotal 0.01 |
-|---|---|---|---|
+
 ![alt text]({353B0E33-0425-4727-B356-033DD623034B}.png)
 
 ### Validación Nro. 5
 | ID | Tipo | Entrada | Resultado esperado |
 |---|---|---|---|
 | N5 | Inválido | Precio 55.00, cantidad 3, descuento 150 % | Rechazado |
-|---|---|---|---|
+
 ![alt text]({9B16EA29-6D33-4033-B5C8-FE5EE82359DE}.png)
 
 ### Validación Nro. 6 (Cálculo del Importe Total)
 | ID | Entrada | Resultado esperado |
 |---|---|---|---|
 | P1 | Precio 55.00, cantidad 3, descuento 10 % | 148.50 |
-|---|---|---|---|
 | P2 | Precio 25.00, cantidad 1, descuento 15 % | 21.25 |
-|---|---|---|---|
 | P3 | Precio 11.50, cantidad 6, descuento 45 % | 37.95 |
-|---|---|---|---|
 
 | Total de Importe |
 |---|
