@@ -31,7 +31,6 @@ public class Main {
         while (opcion != 3) {
             menuService.mostrarMenu();
             opcion = lectura.leerEntero("Ingrese su opción: ");
-            escaner.nextLine();
             switch (opcion) {
                 case 1:
                     guardarProductoService.guardarProducto(productos);

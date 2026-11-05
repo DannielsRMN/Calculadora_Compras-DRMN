@@ -18,7 +18,7 @@ public class GuardarProductoService {
         String nombre = lectura.leerEntrada("Ingrese el nombre del producto: ");
         double precio = lectura.leerDouble("Ingrese el precio del producto: ");
         int cantidad = lectura.leerEntero("Ingrese la cantidad del producto: ");
-        int descuento = lectura.leerEntero("Ingrese el descuento del producto (0-100%): ");
+        int descuento = lectura.leerEntero("Ingrese el descuento del producto (0-100)%: ");
 
         try {
             Product nuevo = new Product(nombre, precio, cantidad, descuento);
