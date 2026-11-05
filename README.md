@@ -38,7 +38,7 @@ TA3/
 
 Desde la carpeta `TA3`:
 
-**Windows**
+**Fuera de /src**
 ```powershell
 java -cp out .\src\Main.java
 ```
