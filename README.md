@@ -6,6 +6,10 @@ Aplicación de consola que registra productos con **nombre, precio, cantidad y d
 
 JDK 17 o superior.
 
+## Uso de Comentarios de Apoyo
+
+Se pueden encontrar en ProductoValidation.java, LecturaConsolaService.java y PausaService.java
+
 ## Estructura del proyecto
 
 ```
