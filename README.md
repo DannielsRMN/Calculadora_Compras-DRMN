@@ -107,7 +107,7 @@ total    = suma de los subtotales
 
 ### Validación Nro. 6 (Cálculo del Importe Total)
 | ID | Entrada | Resultado esperado |
-|---|---|---|---|
+|---|---|---|
 | P1 | Precio 55.00, cantidad 3, descuento 10 % | 148.50 |
 | P2 | Precio 25.00, cantidad 1, descuento 15 % | 21.25 |
 | P3 | Precio 11.50, cantidad 6, descuento 45 % | 37.95 |
